@@ -682,7 +682,6 @@ footer span a:hover{
 
 
 
-
 #projects {
     background-color: black;
    
@@ -715,11 +714,10 @@ footer span a:hover{
   }
   
   .work img {
-    width: 140%;
-    height: auto;
-    border-radius: 10px;
-    display: block;
-    transition: transform 0.9s;
+    width: 470px;
+    height: 300px;
+    /* display: block; */
+    /* transition: transform 0.9s; */
   }
   
   .work {
@@ -780,11 +778,11 @@ footer span a:hover{
   
   .newlayer a {
     margin-top: 10%;
-    color: #5a96d1;
+    color: #fff;
     text-decoration: none;
     font-size: 18px;
     line-height: 30px;
-    background: #fff;
+    /* background: #fff; */
     width: auto;
     height: auto;
     border-radius: 10px;
@@ -792,6 +790,29 @@ footer span a:hover{
     padding: 0 3% 0 3%;
   }
   
+.btn {
+    color: #f1f1f1;
+    /* display: block; */
+    width: 120px !important;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: #48D1CC;
+    border: 2px solid #48D1CC;
+    /* transition: all 0.3s ease; */
+
+}
+
+
+.btn:hover {
+    color: white;
+    background: none;
+    /* background-color: #48D1CC; */
+}
   
   .layer a:hover {
     background-color: #5a96d1;
