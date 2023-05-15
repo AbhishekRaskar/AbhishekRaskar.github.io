@@ -467,16 +467,18 @@ section .title::after{
     width: 70%;
 }
 
-/* .github .title::after{
-    content: "Here find my github contribution over last months";
-} */
+.github .title::after{
+    content: "calender";
+    color: #48D1CC;
+}
 .github>img{
     margin-left: 10%;
     background-color:rgba(128, 128, 128, 0.541)
 }
-/* .github1 .title::after{
-    content: "My overall statistics and contribution";
-} */
+.github1 .title::after{
+    content: "statistics";
+    color: #48D1CC;
+}
 .github1 {
     margin-top: -5%;
 }
