@@ -54,7 +54,9 @@ section {
 footer {
     font-family: 'Poppins', sans-serif;
 }
-
+#skills .title{
+    color: #fff;
+}
 .about .about-content,
 .skills .serv-content,
 .skills .skills-content,
@@ -70,6 +72,7 @@ section .title {
     text-align: center;
     font-size: 40px;
     font-weight: 500;
+    color: black;
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
@@ -838,8 +841,8 @@ footer span a:hover {
 }
 
 .work img {
-    width: 500px;
-    height: 300px;
+    width: 80%;
+    height: 350px;
     /* display: block;  */
     transition: transform 0.9s;
     border-radius: 2%;
