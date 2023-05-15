@@ -374,7 +374,7 @@ section .title::after{
 .skills .serv-content .skills-card .box{
     transition: all 0.3s ease;
     width: 70%;
-    /* margin: auto; */
+    margin: auto;
     
 }
 .skills .serv-content .skills-card:hover .box{
