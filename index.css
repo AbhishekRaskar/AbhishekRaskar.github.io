@@ -356,7 +356,7 @@ section .title::after{
 #skills .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i learned";
+    content: "what i know";
 }
 .skills .serv-content .skills-card{
     width: calc(33% - 20px);
@@ -368,11 +368,14 @@ section .title::after{
     margin-top: 3%;
     transition: all 0.3s ease;
 }
-.skills .serv-content .skills-card:hover{
+/* .skills .serv-content .skills-card:hover{
     background: crimson;
-}
+} */
 .skills .serv-content .skills-card .box{
     transition: all 0.3s ease;
+    width: 70%;
+    /* margin: auto; */
+    
 }
 .skills .serv-content .skills-card:hover .box{
     transform: scale(1.05);
